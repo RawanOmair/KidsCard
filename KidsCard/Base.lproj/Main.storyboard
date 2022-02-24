@@ -234,6 +234,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Next">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="29"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Oly-sN-yhZ" kind="push" id="0gs-ph-eHd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aHz-O1-K1E"/>
@@ -252,13 +255,36 @@
                     <view key="view" contentMode="scaleToFill" id="pxr-qH-xMF">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A6" translatesAutoresizingMaskIntoConstraints="NO" id="zrs-Tx-yed">
+                                <rect key="frame" x="574" y="375" width="274" height="319"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A7 " translatesAutoresizingMaskIntoConstraints="NO" id="Rd2-YY-j2a">
+                                <rect key="frame" x="251" y="375" width="285" height="339"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ad" translatesAutoresizingMaskIntoConstraints="NO" id="B0x-G3-uSX">
+                                <rect key="frame" x="1083" y="814" width="283" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A9" translatesAutoresizingMaskIntoConstraints="NO" id="vgi-65-psI">
+                                <rect key="frame" x="912" y="588" width="339" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A8" translatesAutoresizingMaskIntoConstraints="NO" id="GbT-hC-Vwf">
+                                <rect key="frame" x="275" y="164" width="432" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Tys-18-u7C"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.9882352941176471" green="0.99215686319999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="orf-Nv-n4Y"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ht-cN-KOa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3296.0468521229864" y="281.8359375"/>
+            <point key="canvasLocation" x="3295.6076134699852" y="281.8359375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jDn-Es-GIG">
@@ -285,6 +311,11 @@
         <image name="A3" width="119" height="20"/>
         <image name="A4" width="40" height="275"/>
         <image name="A5" width="21" height="36"/>
+        <image name="A6" width="286" height="349"/>
+        <image name="A7 " width="256" height="353"/>
+        <image name="A8" width="315" height="56"/>
+        <image name="A9" width="182" height="268"/>
+        <image name="Ad" width="240" height="48"/>
         <image name="B1" width="41" height="277"/>
         <image name="B2" width="275" height="71"/>
         <image name="B3" width="40" height="266"/>
@@ -294,9 +325,6 @@
         <image name="Line 13" width="24" height="173"/>
         <image name="abc 1" width="138" height="135"/>
         <image name="iStock-1248697823_10-removebg-preview" width="300" height="251"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
