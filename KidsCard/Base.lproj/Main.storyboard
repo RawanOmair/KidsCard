@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,67 +18,63 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="Rectangle 92" translatesAutoresizingMaskIntoConstraints="NO" id="pGc-k4-gxJ">
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1ek-BV-B3E">
-                                <rect key="frame" x="1115" y="767" width="194" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemGrayColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next">
-                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="29"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="erF-FV-det" kind="show" id="4lL-IH-RQ4"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is “KidsCards”? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jP-Dp-RUz">
-                                <rect key="frame" x="604" y="185" width="606" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="60"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="to exprece his need !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8x-We-KoY">
-                                <rect key="frame" x="604" y="392" width="372" height="45"/>
+                                <rect key="frame" x="162" y="490" width="372" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="40"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A4" translatesAutoresizingMaskIntoConstraints="NO" id="5qI-QA-e1V">
-                                <rect key="frame" x="82" y="0.0" width="390" height="411"/>
+                                <rect key="frame" x="710" y="-98" width="390" height="411"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehG-ly-RNi">
-                                <rect key="frame" x="1202" y="75" width="92" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Skip"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KidsCards will help the special need child  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5A-Zi-G22">
-                                <rect key="frame" x="604" y="294" width="1172" height="90"/>
+                                <rect key="frame" x="162" y="408" width="1172" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="38"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 58" translatesAutoresizingMaskIntoConstraints="NO" id="bsl-bo-eJC">
-                                <rect key="frame" x="717" y="740" width="105" height="143"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A1" translatesAutoresizingMaskIntoConstraints="NO" id="grT-iK-Un0">
-                                <rect key="frame" x="71" y="419" width="413" height="464"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A5" translatesAutoresizingMaskIntoConstraints="NO" id="Isp-oR-fGH">
-                                <rect key="frame" x="1242" y="794" width="52" height="29"/>
+                                <rect key="frame" x="881" y="321" width="413" height="464"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WOW ! isn’t great ? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJo-Tx-D8g">
-                                <rect key="frame" x="604" y="445" width="513" height="99"/>
+                                <rect key="frame" x="162" y="543" width="513" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="39"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="NSW-sj-Yfn">
+                                <rect key="frame" x="162" y="235" width="630" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="B8p-SG-6m7">
+                                <rect key="frame" x="639" y="872" width="88" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pa-50-0gN">
+                                <rect key="frame" x="1231" y="55" width="62" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Skip">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Oly-sN-yhZ" kind="show" id="Lhc-Uc-efr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alV-wQ-Adw">
+                                <rect key="frame" x="1249" y="853" width="45" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="A5" title=""/>
+                                <connections>
+                                    <segue destination="erF-FV-det" kind="show" id="gAE-Mv-fsV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.98823523520000001" green="0.99215686319999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -116,68 +111,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="Rectangle 92" translatesAutoresizingMaskIntoConstraints="NO" id="rGR-Ju-ua6">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ad" translatesAutoresizingMaskIntoConstraints="NO" id="GUa-0P-rSS">
+                                <rect key="frame" x="1099" y="669" width="283" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="colorful and simple way !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cu1-5N-yZ2">
+                                <rect key="frame" x="135" y="499" width="463" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B3" translatesAutoresizingMaskIntoConstraints="NO" id="3Xc-4Q-dhs">
+                                <rect key="frame" x="275" y="0.0" width="273" height="274"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B4" translatesAutoresizingMaskIntoConstraints="NO" id="UXm-VP-eQu">
-                                <rect key="frame" x="132" y="141" width="289" height="255"/>
+                                <rect key="frame" x="997" y="133" width="289" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B5" translatesAutoresizingMaskIntoConstraints="NO" id="Y5K-BE-vUp">
+                                <rect key="frame" x="950" y="389" width="316" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B1" translatesAutoresizingMaskIntoConstraints="NO" id="9am-y4-qNO">
-                                <rect key="frame" x="324" y="0.0" width="240" height="274"/>
+                                <rect key="frame" x="1170" y="0.0" width="240" height="274"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B3" translatesAutoresizingMaskIntoConstraints="NO" id="3Xc-4Q-dhs">
-                                <rect key="frame" x="531" y="0.0" width="240" height="259"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="gs6-Rr-c2q">
+                                <rect key="frame" x="162" y="235" width="630" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pMj-NP-8HI">
-                                <rect key="frame" x="575" y="302" width="771" height="74"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="22" translatesAutoresizingMaskIntoConstraints="NO" id="sjD-eT-ANQ">
+                                <rect key="frame" x="639" y="872" width="88" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Simple, Smart and Helpful ! 
-</string>
-                                <fontDescription key="fontDescription" name="AppleSymbols" family="Apple Symbols" pointSize="80"/>
-                                <color key="textColor" red="0.54901963470000004" green="0.74901962280000001" blue="0.85882353779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It will help your child to learn in creative, " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Fm-hv-FEc">
-                                <rect key="frame" x="575" y="417" width="695" height="48"/>
+                                <rect key="frame" x="162" y="421" width="1172" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                <color key="textColor" red="0.41568624970000001" green="0.41568624970000001" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="40"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="colorful and simple way !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cu1-5N-yZ2">
-                                <rect key="frame" x="575" y="510" width="463" height="55"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CKc-si-WI6">
+                                <rect key="frame" x="1241" y="886" width="45" height="17"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                <color key="textColor" red="0.41568624970000001" green="0.41568624970000001" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B5" translatesAutoresizingMaskIntoConstraints="NO" id="Y5K-BE-vUp">
-                                <rect key="frame" x="175" y="452" width="316" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B2" translatesAutoresizingMaskIntoConstraints="NO" id="dJA-d6-uVa">
-                                <rect key="frame" x="0.0" y="735" width="352" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A5" translatesAutoresizingMaskIntoConstraints="NO" id="ID2-Vg-dsZ">
-                                <rect key="frame" x="1249" y="861" width="84" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdq-sa-j23">
-                                <rect key="frame" x="1139" y="839" width="194" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemGrayColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next">
-                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="29"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="A5" title=""/>
                                 <connections>
-                                    <segue destination="JMh-lR-rsn" kind="push" id="g6n-gf-7O3"/>
+                                    <segue destination="JMh-lR-rsn" kind="show" id="GzB-9N-9y8"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="pDW-lb-HnD"/>
                         <color key="backgroundColor" red="0.98823523520000001" green="0.99215686319999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="rGR-Ju-ua6" firstAttribute="top" secondItem="Gfh-YY-58o" secondAttribute="top" id="5bs-Tp-Qby"/>
+                            <constraint firstAttribute="bottom" secondItem="rGR-Ju-ua6" secondAttribute="bottom" id="boC-Nc-x66"/>
+                            <constraint firstItem="rGR-Ju-ua6" firstAttribute="leading" secondItem="pDW-lb-HnD" secondAttribute="leading" id="n0M-5k-2vd"/>
+                            <constraint firstAttribute="trailing" secondItem="rGR-Ju-ua6" secondAttribute="trailing" id="qZ4-Hf-e8M"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="MhB-Yh-DEB"/>
                 </viewController>
@@ -193,68 +189,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3J-3P-HB6">
-                                <rect key="frame" x="518" y="332" width="384" height="74"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="Rectangle 92" translatesAutoresizingMaskIntoConstraints="NO" id="Lee-J5-Wg1">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ad" translatesAutoresizingMaskIntoConstraints="NO" id="3vB-Dh-Acr">
+                                <rect key="frame" x="1132" y="698" width="283" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Customizable.
-</string>
-                                <fontDescription key="fontDescription" name="AppleSymbols" family="Apple Symbols" pointSize="80"/>
-                                <color key="textColor" red="0.54901963470000004" green="0.74901962280000001" blue="0.85882353779999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Can’t wait to start ? let’s begin then ! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwN-Vk-MZW">
+                                <rect key="frame" x="116" y="488" width="629" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                <color key="textColor" red="0.41568624970000001" green="0.41568624970000001" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KidsCards wants to be closer to your child !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Eo-db-o6h">
-                                <rect key="frame" x="518" y="434" width="726" height="48"/>
+                                <rect key="frame" x="116" y="427" width="748" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="39"/>
                                 <color key="textColor" red="0.41568624970000001" green="0.41568624970000001" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Can’t wait to start ? let’s begin then ! " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hwN-Vk-MZW">
-                                <rect key="frame" x="518" y="528" width="629" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
-                                <color key="textColor" red="0.41568624970000001" green="0.41568624970000001" blue="0.4196078479" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B3" translatesAutoresizingMaskIntoConstraints="NO" id="mfh-3z-CW7">
-                                <rect key="frame" x="443" y="0.0" width="240" height="259"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line 13" translatesAutoresizingMaskIntoConstraints="NO" id="eXc-3T-MzH">
-                                <rect key="frame" x="217" y="0.0" width="240" height="231"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Line 12" translatesAutoresizingMaskIntoConstraints="NO" id="pDY-RV-r2i">
-                                <rect key="frame" x="0.0" y="684" width="352" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iStock-1248697823_10-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="JHi-3t-P0l">
-                                <rect key="frame" x="179" y="462" width="316" height="247"/>
+                                <rect key="frame" x="1016" y="0.0" width="240" height="231"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abc 1" translatesAutoresizingMaskIntoConstraints="NO" id="8fF-lF-riO">
-                                <rect key="frame" x="255" y="239" width="164" height="109"/>
+                                <rect key="frame" x="1031" y="260" width="164" height="109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A5" translatesAutoresizingMaskIntoConstraints="NO" id="Hpw-F4-CUV">
-                                <rect key="frame" x="1177" y="858" width="84" height="38"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iStock-1248697823_10-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="JHi-3t-P0l">
+                                <rect key="frame" x="978" y="427" width="316" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZiN-Tl-JpP">
-                                <rect key="frame" x="1067" y="836" width="194" height="83"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="hRF-EB-kzw">
+                                <rect key="frame" x="162" y="235" width="379" height="247"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemGrayColor"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="B3" translatesAutoresizingMaskIntoConstraints="NO" id="mfh-3z-CW7">
+                                <rect key="frame" x="177" y="-49" width="256" height="329"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="33" translatesAutoresizingMaskIntoConstraints="NO" id="kVK-lg-gQ9">
+                                <rect key="frame" x="639" y="872" width="88" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hqn-fy-Anm">
+                                <rect key="frame" x="1251" y="862" width="45" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next">
-                                    <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="29"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="A5" title=""/>
                                 <connections>
-                                    <segue destination="Oly-sN-yhZ" kind="push" id="0gs-ph-eHd"/>
+                                    <segue destination="Oly-sN-yhZ" kind="show" id="K8A-x0-KYP"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aHz-O1-K1E"/>
                         <color key="backgroundColor" red="0.98823523520000001" green="0.99215686319999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Lee-J5-Wg1" secondAttribute="bottom" id="7Gr-As-RyE"/>
+                            <constraint firstAttribute="trailing" secondItem="Lee-J5-Wg1" secondAttribute="trailing" id="FtB-wG-nGM"/>
+                            <constraint firstItem="Lee-J5-Wg1" firstAttribute="leading" secondItem="aHz-O1-K1E" secondAttribute="leading" id="uqu-27-Lbn"/>
+                            <constraint firstItem="Lee-J5-Wg1" firstAttribute="top" secondItem="IoD-Gw-fgF" secondAttribute="top" id="xSt-lF-bhD"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ly3-Ar-921"/>
                 </viewController>
@@ -270,29 +267,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A6" translatesAutoresizingMaskIntoConstraints="NO" id="zrs-Tx-yed">
-                                <rect key="frame" x="574" y="375" width="274" height="319"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" horizontalCompressionResistancePriority="1" verticalCompressionResistancePriority="1" image="Rectangle 92" translatesAutoresizingMaskIntoConstraints="NO" id="pIP-Xb-jf3">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A7 " translatesAutoresizingMaskIntoConstraints="NO" id="Rd2-YY-j2a">
-                                <rect key="frame" x="251" y="375" width="285" height="339"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ad" translatesAutoresizingMaskIntoConstraints="NO" id="B0x-G3-uSX">
-                                <rect key="frame" x="1083" y="814" width="283" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A9" translatesAutoresizingMaskIntoConstraints="NO" id="vgi-65-psI">
-                                <rect key="frame" x="912" y="588" width="339" height="256"/>
+                                <rect key="frame" x="343" y="380" width="285" height="339"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A8" translatesAutoresizingMaskIntoConstraints="NO" id="GbT-hC-Vwf">
-                                <rect key="frame" x="275" y="164" width="432" height="150"/>
+                                <rect key="frame" x="213" y="140" width="432" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ad" translatesAutoresizingMaskIntoConstraints="NO" id="B0x-G3-uSX">
+                                <rect key="frame" x="1162" y="820" width="283" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A9" translatesAutoresizingMaskIntoConstraints="NO" id="vgi-65-psI">
+                                <rect key="frame" x="1025" y="668" width="278" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="A6" translatesAutoresizingMaskIntoConstraints="NO" id="zrs-Tx-yed">
+                                <rect key="frame" x="674" y="380" width="272" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tys-18-u7C"/>
                         <color key="backgroundColor" red="0.9882352941176471" green="0.99215686319999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="pIP-Xb-jf3" secondAttribute="bottom" id="1xs-bm-iel"/>
+                            <constraint firstAttribute="trailing" secondItem="pIP-Xb-jf3" secondAttribute="trailing" id="OqD-v2-t9p"/>
+                            <constraint firstItem="pIP-Xb-jf3" firstAttribute="leading" secondItem="Tys-18-u7C" secondAttribute="leading" id="Q1u-Yq-Kga"/>
+                            <constraint firstItem="pIP-Xb-jf3" firstAttribute="top" secondItem="pxr-qH-xMF" secondAttribute="top" id="mnY-Op-eQl"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="orf-Nv-n4Y"/>
                 </viewController>
@@ -319,8 +325,17 @@
             <point key="canvasLocation" x="704.09956076134699" y="281.8359375"/>
         </scene>
     </scenes>
-    <color key="tintColor" red="0.5411764979" green="0.58823531870000001" blue="0.61960786580000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+    <inferredMetricsTieBreakers>
+        <segue reference="K8A-x0-KYP"/>
+    </inferredMetricsTieBreakers>
+    <color key="tintColor" red="0.26274511220000002" green="0.47450977560000002" blue="0.63529413940000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
+        <image name="1" width="595" height="59"/>
+        <image name="11" width="119" height="20"/>
+        <image name="2" width="755" height="70"/>
+        <image name="22" width="120" height="20"/>
+        <image name="3" width="384" height="55"/>
+        <image name="33" width="123" height="20"/>
         <image name="A1" width="336" height="284"/>
         <image name="A4" width="40" height="275"/>
         <image name="A5" width="21" height="36"/>
@@ -330,18 +345,12 @@
         <image name="A9" width="182" height="268"/>
         <image name="Ad" width="240" height="48"/>
         <image name="B1" width="41" height="277"/>
-        <image name="B2" width="275" height="71"/>
         <image name="B3" width="40" height="266"/>
         <image name="B4" width="242" height="239"/>
         <image name="B5" width="248" height="230"/>
-        <image name="Group 58" width="119" height="20"/>
-        <image name="Line 12" width="309" height="53"/>
         <image name="Line 13" width="24" height="173"/>
         <image name="Rectangle 92" width="6122.5" height="5726.5"/>
         <image name="abc 1" width="138" height="135"/>
         <image name="iStock-1248697823_10-removebg-preview" width="300" height="251"/>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>
