@@ -13,6 +13,20 @@
 		99156A0727C383ED0055F252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99156A0527C383ED0055F252 /* Main.storyboard */; };
 		99156A0927C383EE0055F252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99156A0827C383EE0055F252 /* Assets.xcassets */; };
 		99156A0C27C383EE0055F252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99156A0A27C383EE0055F252 /* LaunchScreen.storyboard */; };
+		A6302F0427D49CC3002D0766 /* PronounsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0327D49CC3002D0766 /* PronounsViewController.swift */; };
+		A6302F0627D49D2F002D0766 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0527D49D2F002D0766 /* Card.swift */; };
+		A6302F0827D49D3E002D0766 /* VerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0727D49D3E002D0766 /* VerbViewController.swift */; };
+		A6302F1027D4A146002D0766 /* CardCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0F27D4A146002D0766 /* CardCVCell.swift */; };
+		A6302F1227D4ABA7002D0766 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F1127D4ABA7002D0766 /* CardViewController.swift */; };
+		A6309E1E27D726100035B0F6 /* CategoryCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6309E1D27D726100035B0F6 /* CategoryCardViewController.swift */; };
+		A6309E2027D72D3A0035B0F6 /* FoodCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6309E1F27D72D3A0035B0F6 /* FoodCardViewController.swift */; };
+		A6309E2227D734BA0035B0F6 /* ActiviteisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6309E2127D734BA0035B0F6 /* ActiviteisViewController.swift */; };
+		A6309E2427D739450035B0F6 /* ItemsCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6309E2327D739450035B0F6 /* ItemsCardViewController.swift */; };
+		A6309E2627D73CCD0035B0F6 /* PlacesCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6309E2527D73CCD0035B0F6 /* PlacesCardViewController.swift */; };
+		A663B73F27D783C10016DE81 /* FoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663B73E27D783C10016DE81 /* FoodVC.swift */; };
+		A663B74127D783D70016DE81 /* ActiviteisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663B74027D783D70016DE81 /* ActiviteisVC.swift */; };
+		A663B74327D783EB0016DE81 /* ItemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663B74227D783EB0016DE81 /* ItemsVC.swift */; };
+		A66BFC3D27D670B7005C846C /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66BFC3C27D670B7005C846C /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		99156A0827C383EE0055F252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99156A0B27C383EE0055F252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99156A0D27C383EE0055F252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6302F0327D49CC3002D0766 /* PronounsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronounsViewController.swift; sourceTree = "<group>"; };
+		A6302F0527D49D2F002D0766 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A6302F0727D49D3E002D0766 /* VerbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbViewController.swift; sourceTree = "<group>"; };
+		A6302F0F27D4A146002D0766 /* CardCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCVCell.swift; sourceTree = "<group>"; };
+		A6302F1127D4ABA7002D0766 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		A6309E1D27D726100035B0F6 /* CategoryCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardViewController.swift; sourceTree = "<group>"; };
+		A6309E1F27D72D3A0035B0F6 /* FoodCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardViewController.swift; sourceTree = "<group>"; };
+		A6309E2127D734BA0035B0F6 /* ActiviteisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiviteisViewController.swift; sourceTree = "<group>"; };
+		A6309E2327D739450035B0F6 /* ItemsCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCardViewController.swift; sourceTree = "<group>"; };
+		A6309E2527D73CCD0035B0F6 /* PlacesCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCardViewController.swift; sourceTree = "<group>"; };
+		A663B73E27D783C10016DE81 /* FoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVC.swift; sourceTree = "<group>"; };
+		A663B74027D783D70016DE81 /* ActiviteisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiviteisVC.swift; sourceTree = "<group>"; };
+		A663B74227D783EB0016DE81 /* ItemsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsVC.swift; sourceTree = "<group>"; };
+		A66BFC3C27D670B7005C846C /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +86,51 @@
 			children = (
 				991569FF27C383ED0055F252 /* AppDelegate.swift */,
 				99156A0127C383ED0055F252 /* SceneDelegate.swift */,
-				99156A0327C383ED0055F252 /* ViewController.swift */,
-				99156A0527C383ED0055F252 /* Main.storyboard */,
+				A6302F0E27D49E70002D0766 /* Model */,
+				A6302F0D27D49E5B002D0766 /* View */,
+				A6302F0B27D49E29002D0766 /* Contoller */,
 				99156A0827C383EE0055F252 /* Assets.xcassets */,
 				99156A0A27C383EE0055F252 /* LaunchScreen.storyboard */,
 				99156A0D27C383EE0055F252 /* Info.plist */,
 			);
 			path = KidsCard;
+			sourceTree = "<group>";
+		};
+		A6302F0B27D49E29002D0766 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				99156A0327C383ED0055F252 /* ViewController.swift */,
+				A6302F0727D49D3E002D0766 /* VerbViewController.swift */,
+				A6302F0327D49CC3002D0766 /* PronounsViewController.swift */,
+				A6302F1127D4ABA7002D0766 /* CardViewController.swift */,
+				A66BFC3C27D670B7005C846C /* CategoryViewController.swift */,
+				A6309E1D27D726100035B0F6 /* CategoryCardViewController.swift */,
+				A6309E1F27D72D3A0035B0F6 /* FoodCardViewController.swift */,
+				A6309E2127D734BA0035B0F6 /* ActiviteisViewController.swift */,
+				A6309E2327D739450035B0F6 /* ItemsCardViewController.swift */,
+				A6309E2527D73CCD0035B0F6 /* PlacesCardViewController.swift */,
+				A663B73E27D783C10016DE81 /* FoodVC.swift */,
+				A663B74027D783D70016DE81 /* ActiviteisVC.swift */,
+				A663B74227D783EB0016DE81 /* ItemsVC.swift */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		A6302F0D27D49E5B002D0766 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99156A0527C383ED0055F252 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6302F0E27D49E70002D0766 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6302F0527D49D2F002D0766 /* Card.swift */,
+				A6302F0F27D4A146002D0766 /* CardCVCell.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +204,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A663B74327D783EB0016DE81 /* ItemsVC.swift in Sources */,
 				99156A0427C383ED0055F252 /* ViewController.swift in Sources */,
+				A6309E2227D734BA0035B0F6 /* ActiviteisViewController.swift in Sources */,
+				A6302F0827D49D3E002D0766 /* VerbViewController.swift in Sources */,
 				99156A0027C383ED0055F252 /* AppDelegate.swift in Sources */,
+				A6302F0627D49D2F002D0766 /* Card.swift in Sources */,
+				A6302F1227D4ABA7002D0766 /* CardViewController.swift in Sources */,
+				A6309E2027D72D3A0035B0F6 /* FoodCardViewController.swift in Sources */,
+				A6302F1027D4A146002D0766 /* CardCVCell.swift in Sources */,
+				A6309E1E27D726100035B0F6 /* CategoryCardViewController.swift in Sources */,
+				A6302F0427D49CC3002D0766 /* PronounsViewController.swift in Sources */,
+				A6309E2627D73CCD0035B0F6 /* PlacesCardViewController.swift in Sources */,
+				A663B74127D783D70016DE81 /* ActiviteisVC.swift in Sources */,
+				A6309E2427D739450035B0F6 /* ItemsCardViewController.swift in Sources */,
+				A66BFC3D27D670B7005C846C /* CategoryViewController.swift in Sources */,
 				99156A0227C383ED0055F252 /* SceneDelegate.swift in Sources */,
+				A663B73F27D783C10016DE81 /* FoodVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
