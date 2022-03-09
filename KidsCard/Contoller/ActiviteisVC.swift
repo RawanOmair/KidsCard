@@ -22,12 +22,12 @@ class ActiviteisVC: UIViewController, UICollectionViewDelegate{
     var sentenceArray = [Card]()
     let reuseIdentifier = "cell1"
   
-    @IBAction func NextButton(_ sender: Any) {
-//     
-//      //  performSegue(withIdentifier: "ShowCategory" , sender: self)
-//        let vc = storyboard?.instantiateViewController(withIdentifier: "CategoryViewController") as! CategoryViewController
-//        vc.sentenceArray = sentenceArray
-//        navigationController?.pushViewController(vc, animated: true)
+
+    @IBAction func TimerButton(_ sender: UIButton) {
+          performSegue(withIdentifier: "timer" , sender: self)
+     //     let vc = storyboard?.instantiateViewController(withIdentifier: "TimeController") as! TimerController
+        //  vc.sentenceArray = sentenceArray
+       //   navigationController?.pushViewController(vc, animated: true)
     }
     
 //    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -39,8 +39,6 @@ class ActiviteisVC: UIViewController, UICollectionViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        super.viewDidLoad()
-        
         //CardCollectionView
 //        CardCollectionView.dragInteractionEnabled = true
 //        CardCollectionView.dragDelegate = self

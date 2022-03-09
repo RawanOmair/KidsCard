@@ -13,6 +13,10 @@
 		99156A0727C383ED0055F252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99156A0527C383ED0055F252 /* Main.storyboard */; };
 		99156A0927C383EE0055F252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99156A0827C383EE0055F252 /* Assets.xcassets */; };
 		99156A0C27C383EE0055F252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99156A0A27C383EE0055F252 /* LaunchScreen.storyboard */; };
+		9951BB0C27D7D7C5000EE692 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9951BB0E27D7D7C5000EE692 /* Localizable.strings */; };
+		9953A01E27D7AE1E001B964F /* TimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953A01D27D7AE1E001B964F /* TimerController.swift */; };
+		9953A02027D7B347001B964F /* TimerConversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953A01F27D7B347001B964F /* TimerConversions.swift */; };
+		9953A02227D7B39C001B964F /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953A02127D7B39C001B964F /* Alerts.swift */; };
 		A6302F0427D49CC3002D0766 /* PronounsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0327D49CC3002D0766 /* PronounsViewController.swift */; };
 		A6302F0627D49D2F002D0766 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0527D49D2F002D0766 /* Card.swift */; };
 		A6302F0827D49D3E002D0766 /* VerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0727D49D3E002D0766 /* VerbViewController.swift */; };
@@ -38,6 +42,13 @@
 		99156A0827C383EE0055F252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99156A0B27C383EE0055F252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99156A0D27C383EE0055F252 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9951BB0827D7D6E2000EE692 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		9951BB0927D7D6E2000EE692 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9951BB0D27D7D7C5000EE692 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9951BB0F27D7DE8D000EE692 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9953A01D27D7AE1E001B964F /* TimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerController.swift; path = ../TimerController.swift; sourceTree = "<group>"; };
+		9953A01F27D7B347001B964F /* TimerConversions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerConversions.swift; sourceTree = "<group>"; };
+		9953A02127D7B39C001B964F /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		A6302F0327D49CC3002D0766 /* PronounsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronounsViewController.swift; sourceTree = "<group>"; };
 		A6302F0527D49D2F002D0766 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		A6302F0727D49D3E002D0766 /* VerbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbViewController.swift; sourceTree = "<group>"; };
@@ -86,12 +97,14 @@
 			children = (
 				991569FF27C383ED0055F252 /* AppDelegate.swift */,
 				99156A0127C383ED0055F252 /* SceneDelegate.swift */,
+				99156A0327C383ED0055F252 /* ViewController.swift */,
 				A6302F0E27D49E70002D0766 /* Model */,
 				A6302F0D27D49E5B002D0766 /* View */,
 				A6302F0B27D49E29002D0766 /* Contoller */,
 				99156A0827C383EE0055F252 /* Assets.xcassets */,
 				99156A0A27C383EE0055F252 /* LaunchScreen.storyboard */,
 				99156A0D27C383EE0055F252 /* Info.plist */,
+				9951BB0E27D7D7C5000EE692 /* Localizable.strings */,
 			);
 			path = KidsCard;
 			sourceTree = "<group>";
@@ -99,7 +112,9 @@
 		A6302F0B27D49E29002D0766 /* Contoller */ = {
 			isa = PBXGroup;
 			children = (
-				99156A0327C383ED0055F252 /* ViewController.swift */,
+				9953A01D27D7AE1E001B964F /* TimerController.swift */,
+				9953A01F27D7B347001B964F /* TimerConversions.swift */,
+				9953A02127D7B39C001B964F /* Alerts.swift */,
 				A6302F0727D49D3E002D0766 /* VerbViewController.swift */,
 				A6302F0327D49CC3002D0766 /* PronounsViewController.swift */,
 				A6302F1127D4ABA7002D0766 /* CardViewController.swift */,
@@ -175,6 +190,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 991569F327C383ED0055F252;
 			productRefGroup = 991569FD27C383ED0055F252 /* Products */;
@@ -192,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99156A0C27C383EE0055F252 /* LaunchScreen.storyboard in Resources */,
+				9951BB0C27D7D7C5000EE692 /* Localizable.strings in Resources */,
 				99156A0927C383EE0055F252 /* Assets.xcassets in Resources */,
 				99156A0727C383ED0055F252 /* Main.storyboard in Resources */,
 			);
@@ -210,11 +227,14 @@
 				A6302F0827D49D3E002D0766 /* VerbViewController.swift in Sources */,
 				99156A0027C383ED0055F252 /* AppDelegate.swift in Sources */,
 				A6302F0627D49D2F002D0766 /* Card.swift in Sources */,
+				9953A02227D7B39C001B964F /* Alerts.swift in Sources */,
 				A6302F1227D4ABA7002D0766 /* CardViewController.swift in Sources */,
 				A6309E2027D72D3A0035B0F6 /* FoodCardViewController.swift in Sources */,
+				9953A02027D7B347001B964F /* TimerConversions.swift in Sources */,
 				A6302F1027D4A146002D0766 /* CardCVCell.swift in Sources */,
 				A6309E1E27D726100035B0F6 /* CategoryCardViewController.swift in Sources */,
 				A6302F0427D49CC3002D0766 /* PronounsViewController.swift in Sources */,
+				9953A01E27D7AE1E001B964F /* TimerController.swift in Sources */,
 				A6309E2627D73CCD0035B0F6 /* PlacesCardViewController.swift in Sources */,
 				A663B74127D783D70016DE81 /* ActiviteisVC.swift in Sources */,
 				A6309E2427D739450035B0F6 /* ItemsCardViewController.swift in Sources */,
@@ -231,6 +251,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				99156A0627C383ED0055F252 /* Base */,
+				9951BB0827D7D6E2000EE692 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -239,8 +260,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				99156A0B27C383EE0055F252 /* Base */,
+				9951BB0927D7D6E2000EE692 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9951BB0E27D7D7C5000EE692 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9951BB0D27D7D7C5000EE692 /* ar */,
+				9951BB0F27D7DE8D000EE692 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -250,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -311,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
