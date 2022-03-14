@@ -9,10 +9,10 @@ import UIKit
 
 class CategoryCardViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     var CardsArray = [
-        Card(name: "Food", image: "Food"),
-        Card(name: "Activiteis", image: "Activiteis"),
-        Card(name: "Items", image: "Items"),
-        Card(name: "Places", image: "Places")
+        Card(name: NSLocalizedString("Food", comment: ""), image: "Food"),
+        Card(name:  NSLocalizedString("Activities", comment: ""), image: "Activiteis"),
+        Card(name:  NSLocalizedString("Items", comment: ""), image: "Items"),
+        Card(name:  NSLocalizedString("Place", comment: ""), image: "Places")
     ] 
     @IBOutlet weak var CardCV: UICollectionView!
     var selectedCard : String = " "
@@ -24,35 +24,16 @@ class CategoryCardViewController: UIViewController, UICollectionViewDelegate, UI
         // Do any additional setup after loading the view.
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! FoodCardViewController
-        vc.selectedCategory = selectedCard
-    }
+
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         selectedCard = CardsArray[indexPath.item].name
       //  performSegue(withIdentifier: "CardsVC" , sender: selectedCard)
-        
-        if indexPath.row == 0 {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "FoodCardViewController") as! FoodCardViewController
+       print("In the Category: The Selected Card is \(selectedCard)")
+        let vc = storyboard?.instantiateViewController(withIdentifier: "FoodCardViewController") as! FoodCardViewController
+         //   let vc = storyboard?.instantiateViewController(withIdentifier: "FoodVC") as! CategoryViewController
+            vc.selectedCard = selectedCard 
             navigationController?.pushViewController(vc, animated: true)
-        }
-        
-        if indexPath.row == 1 {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "ActiviteisViewController") as! ActiviteisViewController
-            navigationController?.pushViewController(vc, animated: true)
-        }
-        
-        if indexPath.row == 2 {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "ItemsCardViewController") as! ItemsCardViewController
-            navigationController?.pushViewController(vc, animated: true)
-        }
-        
-        if indexPath.row == 3 {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "PlacesCardViewController") as! PlacesCardViewController
-            navigationController?.pushViewController(vc, animated: true)
-        }
-        
     }
     
     

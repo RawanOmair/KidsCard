@@ -9,38 +9,49 @@ import UIKit
 
 class PronounsViewController: UIViewController, UICollectionViewDelegate {
 
+ var currentShowingCollectionViewIndex: Int = 0
+
  @IBOutlet weak var CardCollectionView: UICollectionView!
  @IBOutlet weak var sentenceCollectionView: UICollectionView!
     
-    var CardsArray = [
-        Card(name: "I", image: "I"),
-        Card(name: "You", image: "You"),
-        Card(name: "She", image: "She"),
-        Card(name: "He", image: "He") 
-    ]
+   
+    var firstpage = [ Card(name: NSLocalizedString("I", comment: ""), image: "I"),
+                   Card(name: NSLocalizedString("You", comment: ""), image: "You"),
+                   Card(name: NSLocalizedString("She", comment: ""), image: "She"),
+                   Card(name:  NSLocalizedString("He", comment: ""), image: "He") ]
+    
+    var secondpage = [ Card(name: NSLocalizedString("Want", comment: ""), image: "Want"),
+                       Card(name: NSLocalizedString("Feel", comment: ""), image: "Feel")]
+    
+    lazy var cards = [firstpage, secondpage]
+    
+    lazy var CardsArray = self.cards[0]
+
     
     public var sentenceArray = [Card]()
 
     let reuseIdentifier = "cell1"
   
     @IBAction func NextButton(_ sender: Any) {
-       // let controller = storyboard?.instantiateViewController(withIdentifier: "VerbViewController") as! VerbViewController
+        currentShowingCollectionViewIndex += 1
         
-        //controller.sentenceArray = sentenceArray
-      //  controller.card = item.dragItem.localObject as! Card
-       // navigationController?.pushViewController(controller, animated: true)
+        print("The currentShowingCollectionViewIndex Value is \(currentShowingCollectionViewIndex) ")
         
-         
-        performSegue(withIdentifier: "showVc" , sender: self)
+        if currentShowingCollectionViewIndex == 1 {
+            CardsArray = cards[1]
+            self.CardCollectionView.reloadData()
+        }
+        if currentShowingCollectionViewIndex == 2 {
+            let vc = storyboard?.instantiateViewController(withIdentifier: "CategoryViewController") as! CategoryViewController
+            vc.sentenceArray = sentenceArray
+            navigationController?.pushViewController(vc, animated: true)
+        }
         
         
     }
     
    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! VerbViewController
-        vc.sentenceArray = sentenceArray
-    }
+
     
     
     override func viewDidLoad() {
@@ -79,6 +90,12 @@ class PronounsViewController: UIViewController, UICollectionViewDelegate {
         
         // Do any additional setup after loading the view.
     }
+    
+    
+    
+    
+    
+    
     private func reorderItems(coordinator: UICollectionViewDropCoordinator, destinationIndexPath: IndexPath, collectionView: UICollectionView)
     {
         let items = coordinator.items
@@ -276,189 +293,3 @@ extension PronounsViewController : UICollectionViewDropDelegate
         }
     }
 }
-
-
-//    public func reorderItems(coordinator: UICollectionViewDropCoordinator, destinationIndexPath: IndexPath, collectionView: UICollectionView)
-//    {
-//        let items = coordinator.items
-//        if items.count == 1, let item = items.first, let sourceIndexPath = item.sourceIndexPath
-//        {
-//            var dIndexPath = destinationIndexPath
-//            if dIndexPath.row >= collectionView.numberOfItems(inSection: 0)
-//            {
-//                dIndexPath.row = collectionView.numberOfItems(inSection: 0) - 1
-//            }
-//            collectionView.performBatchUpdates({
-//                if collectionView === self.sentenceCollectionView
-//                {
-//                    self.sentenceArray.remove(at: sourceIndexPath.row)
-//                    self.sentenceArray.insert(item.dragItem.localObject as! Card, at: dIndexPath.row)
-//                }
-//                else
-//                {
-//                    self.CardsArray.remove(at: sourceIndexPath.row)
-//                    self.CardsArray.insert(item.dragItem.localObject as! Card, at: dIndexPath.row)
-//                }
-//                collectionView.deleteItems(at: [sourceIndexPath])
-//                collectionView.insertItems(at: [dIndexPath])
-//            })
-//            coordinator.drop(items.first!.dragItem, toItemAt: dIndexPath)
-//        }
-//    }
-//    private func copyItems(coordinator: UICollectionViewDropCoordinator, destinationIndexPath: IndexPath, collectionView: UICollectionView)
-//    {
-//        collectionView.performBatchUpdates({
-//            var indexPaths = [IndexPath]()
-//            for (index, item) in coordinator.items.enumerated()
-//            {
-//                let indexPath = IndexPath(row: destinationIndexPath.row + index, section: destinationIndexPath.section)
-//                if collectionView === self.CardCollectionView
-//                {
-//                    self.sentenceArray.insert(item.dragItem.localObject as! Card, at: indexPath.row)
-//                }
-//                else
-//                {
-//                    self.CardsArray.insert(item.dragItem.localObject as! Card, at: indexPath.row)
-//                }
-//                indexPaths.append(indexPath)
-//            }
-//            collectionView.insertItems(at: indexPaths)
-//        })
-//    }
-//
-//}
-//
-//
-//extension PronounsViewController : UICollectionViewDataSource
-//{
-//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
-//    {
-//
-//        //return collectionView == self.CardCollectionView ? self.CardsArray.count : self.sentenceArray.count
-//        if collectionView == self.CardCollectionView {
-//            return CardsArray.count
-//        } else {
-//            return sentenceArray.count
-//        }
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
-//    {
-//        if collectionView == self.CardCollectionView
-//        {
-//            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell1", for: indexPath) as! CardCVCell
-//            cell.cardName.text = self.CardsArray[indexPath.row].name
-//            cell.cardImage.image = UIImage(named: self.CardsArray[indexPath.row].image)!
-//            cell.layer.shadowColor = UIColor.gray.cgColor
-//            cell.layer.shadowOffset = CGSize(width: 0, height: 2.0)
-//            cell.layer.shadowRadius = 1.0
-//            cell.layer.shadowOpacity = 0.5
-//            cell.layer.cornerRadius = 20.0
-//            cell.layer.masksToBounds = false
-//            cell.layer.backgroundColor = #colorLiteral(red: 1, green: 0.9765446782, blue: 1, alpha: 1)
-//            return cell
-//        }
-//        else
-//        {
-//            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell2", for: indexPath) as! CardCVCell
-//            cell.cardName.text = self.sentenceArray[indexPath.row].name
-//            cell.cardImage.image = UIImage(named: self.sentenceArray[indexPath.row].image)!
-//            return cell
-//        }
-//    }
-//}
-//extension PronounsViewController : UICollectionViewDragDelegate
-//{
-//    func collectionView(_ collectionView: UICollectionView, itemsForBeginning session: UIDragSession, at indexPath: IndexPath) -> [UIDragItem]
-//    {
-//        let item = collectionView == CardCollectionView ? self.CardsArray[indexPath.row] : self.sentenceArray[indexPath.row]
-//        let itemProvider = NSItemProvider(object: item.name as NSString)
-//        let dragItem = UIDragItem(itemProvider: itemProvider)
-//        dragItem.localObject = item
-//        return [dragItem]
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, itemsForAddingTo session: UIDragSession, at indexPath: IndexPath, point: CGPoint) -> [UIDragItem]
-//    {
-//        let item = collectionView == CardCollectionView ? self.CardsArray[indexPath.row] : self.sentenceArray[indexPath.row]
-//        let itemProvider = NSItemProvider(object: item.name as NSString)
-//        let dragItem = UIDragItem(itemProvider: itemProvider)
-//        dragItem.localObject = item
-//        return [dragItem]
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, dragPreviewParametersForItemAt indexPath: IndexPath) -> UIDragPreviewParameters?
-//    {
-//        if collectionView == CardCollectionView
-//        {
-//            let previewParameters = UIDragPreviewParameters()
-//            previewParameters.visiblePath = UIBezierPath(rect: CGRect(x: 25, y: 25, width: 120, height: 120))
-//            return previewParameters
-//        }
-//        return nil
-//    }
-//}
-//
-//extension PronounsViewController : UICollectionViewDropDelegate
-//{
-//    func collectionView(_ collectionView: UICollectionView, canHandle session: UIDropSession) -> Bool
-//    {
-//        return session.canLoadObjects(ofClass: NSString.self)
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, dropSessionDidUpdate session: UIDropSession, withDestinationIndexPath destinationIndexPath: IndexPath?) -> UICollectionViewDropProposal
-//    {
-//        if collectionView === self.CardCollectionView
-//        {
-//            if collectionView.hasActiveDrag
-//            {
-//                return UICollectionViewDropProposal(operation: .move, intent: .insertAtDestinationIndexPath)
-//            }
-//            else
-//            {
-//                return UICollectionViewDropProposal(operation: .forbidden)
-//            }
-//        }
-//        else
-//        {
-//            if collectionView.hasActiveDrag
-//            {
-//                return UICollectionViewDropProposal(operation: .move, intent: .insertAtDestinationIndexPath)
-//            }
-//            else
-//            {
-//                return UICollectionViewDropProposal(operation: .copy, intent: .insertAtDestinationIndexPath)
-//            }
-//        }
-//    }
-//
-//    func collectionView(_ collectionView: UICollectionView, performDropWith coordinator: UICollectionViewDropCoordinator)
-//    {
-//        let destinationIndexPath: IndexPath
-//        if let indexPath = coordinator.destinationIndexPath
-//        {
-//            destinationIndexPath = indexPath
-//        }
-//        else
-//        {
-//            // Get last index path of table view.
-//            let section = collectionView.numberOfSections - 1
-//            let row = collectionView.numberOfItems(inSection: section)
-//            destinationIndexPath = IndexPath(row: row, section: section)
-//        }
-//
-//        switch coordinator.proposal.operation
-//        {
-//        case .move:
-//            self.reorderItems(coordinator: coordinator, destinationIndexPath:destinationIndexPath, collectionView: collectionView)
-//            break
-//
-//        case .copy:
-//            self.copyItems(coordinator: coordinator, destinationIndexPath: destinationIndexPath, collectionView: collectionView)
-//
-//        default:
-//            return
-//        }
-//    }
-//}
-//

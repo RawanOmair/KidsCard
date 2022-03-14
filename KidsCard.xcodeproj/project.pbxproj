@@ -19,18 +19,13 @@
 		9953A02227D7B39C001B964F /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9953A02127D7B39C001B964F /* Alerts.swift */; };
 		A6302F0427D49CC3002D0766 /* PronounsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0327D49CC3002D0766 /* PronounsViewController.swift */; };
 		A6302F0627D49D2F002D0766 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0527D49D2F002D0766 /* Card.swift */; };
-		A6302F0827D49D3E002D0766 /* VerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0727D49D3E002D0766 /* VerbViewController.swift */; };
 		A6302F1027D4A146002D0766 /* CardCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F0F27D4A146002D0766 /* CardCVCell.swift */; };
-		A6302F1227D4ABA7002D0766 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6302F1127D4ABA7002D0766 /* CardViewController.swift */; };
 		A6309E1E27D726100035B0F6 /* CategoryCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6309E1D27D726100035B0F6 /* CategoryCardViewController.swift */; };
 		A6309E2027D72D3A0035B0F6 /* FoodCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6309E1F27D72D3A0035B0F6 /* FoodCardViewController.swift */; };
-		A6309E2227D734BA0035B0F6 /* ActiviteisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6309E2127D734BA0035B0F6 /* ActiviteisViewController.swift */; };
-		A6309E2427D739450035B0F6 /* ItemsCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6309E2327D739450035B0F6 /* ItemsCardViewController.swift */; };
-		A6309E2627D73CCD0035B0F6 /* PlacesCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6309E2527D73CCD0035B0F6 /* PlacesCardViewController.swift */; };
+		A6472E6327DF13BA0041D433 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6472E6227DF13BA0041D433 /* ThirdViewController.swift */; };
 		A663B73F27D783C10016DE81 /* FoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663B73E27D783C10016DE81 /* FoodVC.swift */; };
-		A663B74127D783D70016DE81 /* ActiviteisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663B74027D783D70016DE81 /* ActiviteisVC.swift */; };
-		A663B74327D783EB0016DE81 /* ItemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A663B74227D783EB0016DE81 /* ItemsVC.swift */; };
 		A66BFC3D27D670B7005C846C /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66BFC3C27D670B7005C846C /* CategoryViewController.swift */; };
+		A69A23E127DE8BCB00C2A635 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69A23E027DE8BCB00C2A635 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,18 +46,13 @@
 		9953A02127D7B39C001B964F /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		A6302F0327D49CC3002D0766 /* PronounsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PronounsViewController.swift; sourceTree = "<group>"; };
 		A6302F0527D49D2F002D0766 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
-		A6302F0727D49D3E002D0766 /* VerbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbViewController.swift; sourceTree = "<group>"; };
 		A6302F0F27D4A146002D0766 /* CardCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCVCell.swift; sourceTree = "<group>"; };
-		A6302F1127D4ABA7002D0766 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		A6309E1D27D726100035B0F6 /* CategoryCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardViewController.swift; sourceTree = "<group>"; };
 		A6309E1F27D72D3A0035B0F6 /* FoodCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCardViewController.swift; sourceTree = "<group>"; };
-		A6309E2127D734BA0035B0F6 /* ActiviteisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiviteisViewController.swift; sourceTree = "<group>"; };
-		A6309E2327D739450035B0F6 /* ItemsCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsCardViewController.swift; sourceTree = "<group>"; };
-		A6309E2527D73CCD0035B0F6 /* PlacesCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCardViewController.swift; sourceTree = "<group>"; };
+		A6472E6227DF13BA0041D433 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		A663B73E27D783C10016DE81 /* FoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVC.swift; sourceTree = "<group>"; };
-		A663B74027D783D70016DE81 /* ActiviteisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiviteisVC.swift; sourceTree = "<group>"; };
-		A663B74227D783EB0016DE81 /* ItemsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsVC.swift; sourceTree = "<group>"; };
 		A66BFC3C27D670B7005C846C /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		A69A23E027DE8BCB00C2A635 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +87,6 @@
 			children = (
 				991569FF27C383ED0055F252 /* AppDelegate.swift */,
 				99156A0127C383ED0055F252 /* SceneDelegate.swift */,
-				99156A0327C383ED0055F252 /* ViewController.swift */,
 				A6302F0E27D49E70002D0766 /* Model */,
 				A6302F0D27D49E5B002D0766 /* View */,
 				A6302F0B27D49E29002D0766 /* Contoller */,
@@ -112,21 +101,15 @@
 		A6302F0B27D49E29002D0766 /* Contoller */ = {
 			isa = PBXGroup;
 			children = (
+				99156A0327C383ED0055F252 /* ViewController.swift */,
 				9953A01D27D7AE1E001B964F /* TimerController.swift */,
-				9953A01F27D7B347001B964F /* TimerConversions.swift */,
-				9953A02127D7B39C001B964F /* Alerts.swift */,
-				A6302F0727D49D3E002D0766 /* VerbViewController.swift */,
 				A6302F0327D49CC3002D0766 /* PronounsViewController.swift */,
-				A6302F1127D4ABA7002D0766 /* CardViewController.swift */,
 				A66BFC3C27D670B7005C846C /* CategoryViewController.swift */,
 				A6309E1D27D726100035B0F6 /* CategoryCardViewController.swift */,
 				A6309E1F27D72D3A0035B0F6 /* FoodCardViewController.swift */,
-				A6309E2127D734BA0035B0F6 /* ActiviteisViewController.swift */,
-				A6309E2327D739450035B0F6 /* ItemsCardViewController.swift */,
-				A6309E2527D73CCD0035B0F6 /* PlacesCardViewController.swift */,
 				A663B73E27D783C10016DE81 /* FoodVC.swift */,
-				A663B74027D783D70016DE81 /* ActiviteisVC.swift */,
-				A663B74227D783EB0016DE81 /* ItemsVC.swift */,
+				A69A23E027DE8BCB00C2A635 /* SecondViewController.swift */,
+				A6472E6227DF13BA0041D433 /* ThirdViewController.swift */,
 			);
 			path = Contoller;
 			sourceTree = "<group>";
@@ -144,6 +127,8 @@
 			children = (
 				A6302F0527D49D2F002D0766 /* Card.swift */,
 				A6302F0F27D4A146002D0766 /* CardCVCell.swift */,
+				9953A01F27D7B347001B964F /* TimerConversions.swift */,
+				9953A02127D7B39C001B964F /* Alerts.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -221,23 +206,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A663B74327D783EB0016DE81 /* ItemsVC.swift in Sources */,
 				99156A0427C383ED0055F252 /* ViewController.swift in Sources */,
-				A6309E2227D734BA0035B0F6 /* ActiviteisViewController.swift in Sources */,
-				A6302F0827D49D3E002D0766 /* VerbViewController.swift in Sources */,
 				99156A0027C383ED0055F252 /* AppDelegate.swift in Sources */,
 				A6302F0627D49D2F002D0766 /* Card.swift in Sources */,
 				9953A02227D7B39C001B964F /* Alerts.swift in Sources */,
-				A6302F1227D4ABA7002D0766 /* CardViewController.swift in Sources */,
+				A69A23E127DE8BCB00C2A635 /* SecondViewController.swift in Sources */,
 				A6309E2027D72D3A0035B0F6 /* FoodCardViewController.swift in Sources */,
 				9953A02027D7B347001B964F /* TimerConversions.swift in Sources */,
+				A6472E6327DF13BA0041D433 /* ThirdViewController.swift in Sources */,
 				A6302F1027D4A146002D0766 /* CardCVCell.swift in Sources */,
 				A6309E1E27D726100035B0F6 /* CategoryCardViewController.swift in Sources */,
 				A6302F0427D49CC3002D0766 /* PronounsViewController.swift in Sources */,
 				9953A01E27D7AE1E001B964F /* TimerController.swift in Sources */,
-				A6309E2627D73CCD0035B0F6 /* PlacesCardViewController.swift in Sources */,
-				A663B74127D783D70016DE81 /* ActiviteisVC.swift in Sources */,
-				A6309E2427D739450035B0F6 /* ItemsCardViewController.swift in Sources */,
 				A66BFC3D27D670B7005C846C /* CategoryViewController.swift in Sources */,
 				99156A0227C383ED0055F252 /* SceneDelegate.swift in Sources */,
 				A663B73F27D783C10016DE81 /* FoodVC.swift in Sources */,

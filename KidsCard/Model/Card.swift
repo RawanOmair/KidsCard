@@ -12,4 +12,5 @@ struct Card {
     var name: String
     var image: String
    // var cat: String
+    
 }

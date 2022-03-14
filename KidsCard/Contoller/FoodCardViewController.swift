@@ -11,19 +11,53 @@ class FoodCardViewController: UIViewController, UICollectionViewDelegate, UIColl
 
     
     var CardsArray = [
-        Card(name: "Ice cream", image: "Iceream"),
-        Card(name: "Milk", image: "Milk"),
-        Card(name: "Pizza", image: "pizza"),
+        Card(name: NSLocalizedString("Ice cream", comment: ""), image: "Iceream"),
+        Card(name: NSLocalizedString("Milk", comment: ""), image: "Milk"),
+        Card(name: NSLocalizedString("Pizza", comment: ""), image: "pizza"),
     ]
     @IBOutlet weak var CardCV: UICollectionView!
   
-    var selectedCategory : String = "" 
+    var selectedCard : String = "" 
     
     override func viewDidLoad() {
         super.viewDidLoad()
         CardCV.delegate = self
         CardCV.dataSource = self
+        initTheArray()
         // Do any additional setup after loading the view.
+    }
+    
+    func initTheArray() {
+        print("In the FoodVC: The Selected Card is \(selectedCard)")
+        switch selectedCard {
+        case "Food":
+            CardsArray = [
+                Card(name: NSLocalizedString("Ice cream", comment: ""), image: "Iceream"),
+                Card(name: NSLocalizedString("Milk", comment: ""), image: "Milk"),
+                Card(name: NSLocalizedString("Pizza", comment: ""), image: "pizza"),
+                ]
+        case "Activiteis":
+            CardsArray = [
+                Card(name:NSLocalizedString("Play", comment: ""), image: "play"),
+                Card(name: NSLocalizedString("Dance", comment: ""), image: "Dance"),
+                Card(name:NSLocalizedString("Farm", comment: ""), image: "Farming"),
+            ]
+        case "Items":
+            CardsArray = [
+                Card(name:NSLocalizedString("Bag", comment: ""), image: "bag"),
+                Card(name: NSLocalizedString("Book", comment: ""), image: "Book"),
+                Card(name: NSLocalizedString("Hat", comment: ""), image: "Hat"),
+                Card(name: NSLocalizedString("Football", comment: ""), image: "Football"),
+            ]
+        case "Places":
+            CardsArray = [
+                Card(name:NSLocalizedString("School", comment: ""), image: "School"),
+                Card(name:NSLocalizedString("Home", comment: ""), image: "Home"),
+                Card(name:NSLocalizedString("Hospital", comment: ""), image: "Hospital"),
+            ]
+        default:
+            break
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

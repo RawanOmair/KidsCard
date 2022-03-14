@@ -1,1 +1,71 @@
+//First View
+"changeLanguage" = "تغيير اللغة";
+"firstQ" = "What is “KidsCards”?";
+"firstSentenceFirstPage" = "KidsCards will help the special need child";
+"secondSentenceFirstPage" = "to exprece his need !";
+"thiedSentenceFirstPage" = "WOW ! isn’t great ?";
 
+//second View
+
+"firstSentenceSecondPage" = "Simple, Smart and Helpful !";
+"SecondSentenceSecondPage" = "It will help your child to learn in creative,";
+"thirdSentenceSecondPage" =  "colorful and simple way !";
+
+//Third View
+"firstSentenceThirdPage" = "Customizable";
+"secondSentenceThirdPage" = "KidsCards wants to be closer to your child !";
+"thirdSentenceThirdPage" = "Can’t wait to start ? let’s begin then !";
+
+//4th page
+//"Cards" = "Cards" ;
+//"Sentence" = "Sentence";
+
+//First Array
+"I" = "I";
+"You" = "You";
+"She" = "She";
+"He" = "He";
+
+//Second Array
+"Want" = "Want";
+"Feel" = "Feel";
+
+//3th Array
+"Food" = "Food";
+"Activities" = "Activities";
+"Items" = "Items";
+"Place" = "Place";
+
+//4th Array
+"Ice cream" = "Ice cream";
+"Milk" = "Milk";
+"Waffle" = "Waffle";
+"Pizza" = "Pizza";
+
+//5th Array
+"Play" = "Play";
+"Read" = "Read";
+"Dance" = "Dance";
+"Farm" = "Farm";
+
+//6th Array
+"Bag" = "Bag";
+"Book" = "Book";
+"Hat" = "Hat";
+"Football" = "Football";
+
+//7th Array
+"School" = "School";
+"Home" = "Home" ;
+"Garden" = "Garden";
+"Hospital" = "Hospital";
+
+//"Start" ="Start";
+//"Reset" = "Reset";
+//"There was some kind of error when trying to countdown" = "There was some kind of error when trying to countdown";
+//"Invalid time format" = "Invalid time format";
+//"Please make sure you enter a valid time in the textview" = "Please make sure you enter a valid time in the textview";
+//"Timer has finished!" = "Timer has finished!";
+//"The timer has finished counting down from the specified time period." = "The timer has finished counting down from the specified time period.";
+//"Timer reset!" = "Timer reset!";
+//"Skip" = "Skip";

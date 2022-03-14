@@ -11,12 +11,13 @@ class CategoryViewController: UIViewController, UICollectionViewDelegate, UIColl
 
 
     var CardsArray = [
-        Card(name: "Food", image: "Food"),
-        Card(name: "Activiteis", image: "Activiteis"),
-        Card(name: "Items", image: "Items"),
-        Card(name: "Places", image: "Places")
+        Card(name: NSLocalizedString("Food", comment: ""), image: "Food"),
+        Card(name:  NSLocalizedString("Activities", comment: ""), image: "Activiteis"),
+        Card(name:  NSLocalizedString("Items", comment: ""), image: "Items"),
+        Card(name:  NSLocalizedString("Place", comment: ""), image: "Places")
     ]
     
+    var selectedCard : String = " "
     
     var sentenceArray = [Card]()
     
@@ -24,25 +25,15 @@ class CategoryViewController: UIViewController, UICollectionViewDelegate, UIColl
     @IBOutlet weak var sentenceCollectionView: UICollectionView!
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        if indexPath.row == 0 {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "FoodVC") as! FoodVC
+        selectedCard = CardsArray[indexPath.item].name
+
+        print("In the Category: The Selected Card is \(selectedCard)")
+             let vc = storyboard?.instantiateViewController(withIdentifier: "FoodVC") as! FoodVC
+         //   let vc = storyboard?.instantiateViewController(withIdentifier: "FoodVC") as! CategoryViewController
             vc.sentenceArray = sentenceArray
+            vc.selectedCard = selectedCard 
             navigationController?.pushViewController(vc, animated: true)
-        }
-        
-        if indexPath.row == 1 {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "ActiviteisVC") as! ActiviteisVC
-            vc.sentenceArray = sentenceArray
-            navigationController?.pushViewController(vc, animated: true)
-        }
-        
-        if indexPath.row == 2 {
-            let vc = storyboard?.instantiateViewController(withIdentifier: "ItemsVC") as! ItemsVC
-            vc.sentenceArray = sentenceArray
-            navigationController?.pushViewController(vc, animated: true)
-        }
-        
-        
+      
     }
 
     

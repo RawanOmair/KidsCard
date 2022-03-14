@@ -1,1 +1,62 @@
+//First View
+"changeLanguage" = "تغيير اللغة";
+"firstQ" = "ماهي بطاقات الأطفال؟" ;
+"firstSentenceFirstPage" = "تساعد الطفل من ذوي الاحتياجات الخاصة kidsCards" ;
+"secondSentenceFirstPage" = "على التعبير عن حاجته" ;
+"thiedSentenceFirstPage" = "أليس رائعاً؟" ;
 
+////Second View
+"firstSentenceSecondPage" = "بسيطة ، ذكية ، ومفيدة!" ;
+"SecondSentenceSecondPage" = "يساعد طفلك على التعلم بطريقة إبداعية" ;
+"thirdSentenceSecondPage" = "وملونة وبسيطة" ;
+
+////Third View
+"firstSentenceThirdPage" = "قابل لتخصيص" ;
+"secondSentenceThirdPage" = " KidsCards يريد أن يكون قريب من طفلك";
+"thirdSentenceThirdPage" = "لا تستطيع الإنتظار ؟ هيا بنا لنبدأ ";
+
+//4th View
+//"Cards" = "بطاقات";
+//"Sentence" = "جملة";
+
+//First Array
+"I" = "أنا";
+"You" = "أنت";
+"She" = "هي";
+"He" = "هو";
+
+//Second Array
+"Want" = "أريد";
+"Feel" = "أشعر";
+
+"Food" = "طعام";
+"Activities" = "أنشطة";
+"Items" = "مقتنيات";
+"Place" = "مكان";
+"Ice cream" = "آيس كريم";
+"Milk" = "حليب";
+"Waffle" = "وافل";
+"Pizza" = "بيتزا";
+"Play" = "ألعب";
+"Read" ="أقرأ";
+"Dance" ="أرقص";
+"Farm" ="أزرع";
+"Bag" ="الحقيبة";
+"Book" ="الكتاب";
+"Hat" ="القبعة";
+"Football" ="الكرة";
+"School" ="المدرسة";
+"Home" ="المنزل";
+"Garden" ="الحديقة";
+"Hospital" ="المشفى";
+
+//"Start" ="ابدأ";
+//"Start" ="ابدأ";
+//"Reset" ="إعادة ضبط";
+//"There was some kind of error when trying to countdown" = "هناك خطأ عند المحاولة في العد التنازلي";
+//"Invalid time format" = "صياغة الوقت غير صحيحة";
+//"Please make sure you enter a valid time in the textview" = "الرجاء التأكد من إدخال وقت صحيح";
+//"Timer has finished!" = "انتهى الوقت";
+//"The timer has finished counting down from the specified time period." = "انتهى عداد الوقت من الفترة الزمنية المحددة";
+//"Timer reset!" = "إعادة ضبط الوقت";
+//"Skip" = " تخطي";

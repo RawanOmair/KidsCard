@@ -13,12 +13,13 @@ class FoodVC: UIViewController, UICollectionViewDelegate {
     @IBOutlet weak var sentenceCollectionView: UICollectionView!
     
     var CardsArray = [
-        Card(name: "Ice cream", image: "Iceream"),
-        Card(name: "Milk", image: "Milk"),
-        Card(name: "Pizza", image: "pizza"),
+        Card(name: NSLocalizedString("Ice cream", comment: ""), image: "Iceream"),
+        Card(name: NSLocalizedString("Milk", comment: ""), image: "Milk"),
+        Card(name: NSLocalizedString("Pizza", comment: ""), image: "pizza"),
     ]
     
- //   var card: [Card] = []
+    var selectedCard : String = ""
+    
     var sentenceArray = [Card]()
     let reuseIdentifier = "cell1"
   
@@ -41,21 +42,7 @@ class FoodVC: UIViewController, UICollectionViewDelegate {
         super.viewDidLoad()
         super.viewDidLoad()
         
-        //CardCollectionView
-//        CardCollectionView.dragInteractionEnabled = true
-//        CardCollectionView.dragDelegate = self
-//        CardCollectionView.dropDelegate = self
-//        CardCollectionView.delegate = self
-//        CardCollectionView.dataSource = self
-//
-//
-//        //CollectionView-2 drag and drop configuration
-//        sentenceCollectionView.dragInteractionEnabled = true
-//        sentenceCollectionView.dropDelegate = self
-//        sentenceCollectionView.dragDelegate = self
-//        sentenceCollectionView.reorderingCadence = .fast //default value - .immediate
-//        sentenceCollectionView.delegate = self
-//        sentenceCollectionView.dataSource = self
+        initTheArray()
         
         CardCollectionView.delegate = self
         CardCollectionView.dataSource = self
@@ -74,6 +61,41 @@ class FoodVC: UIViewController, UICollectionViewDelegate {
         
         // Do any additional setup after loading the view.
     }
+    
+    func initTheArray () {
+        print("In the FoodVC: The Selected Card is \(selectedCard)")
+        switch selectedCard {
+        case "Food":
+            CardsArray = [
+                Card(name: NSLocalizedString("Ice cream", comment: ""), image: "Iceream"),
+                Card(name: NSLocalizedString("Milk", comment: ""), image: "Milk"),
+                Card(name: NSLocalizedString("Pizza", comment: ""), image: "pizza"),
+                ]
+        case "Activiteis":
+            CardsArray = [
+                Card(name:NSLocalizedString("Play", comment: ""), image: "play"),
+                Card(name: NSLocalizedString("Dance", comment: ""), image: "Dance"),
+                Card(name:NSLocalizedString("Farm", comment: ""), image: "Farming"),
+            ]
+        case "Items":
+            CardsArray = [
+                Card(name:NSLocalizedString("Bag", comment: ""), image: "bag"),
+                Card(name: NSLocalizedString("Book", comment: ""), image: "Book"),
+                Card(name: NSLocalizedString("Hat", comment: ""), image: "Hat"),
+                Card(name: NSLocalizedString("Football", comment: ""), image: "Football"),
+            ]
+        case "Places":
+            CardsArray = [
+                Card(name:NSLocalizedString("School", comment: ""), image: "School"),
+                Card(name:NSLocalizedString("Home", comment: ""), image: "Home"),
+                Card(name:NSLocalizedString("Hospital", comment: ""), image: "Hospital"),
+            ]
+        default:
+            break
+        }
+    }
+  
+    
     private func reorderItems(coordinator: UICollectionViewDropCoordinator, destinationIndexPath: IndexPath, collectionView: UICollectionView)
     {
         let items = coordinator.items
