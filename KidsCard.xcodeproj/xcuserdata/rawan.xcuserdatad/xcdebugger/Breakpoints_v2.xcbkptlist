@@ -20,5 +20,113 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52FABF2E-901B-4198-914F-EDBB9687272F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KidsCard/Model/CardCVCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CardCVCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "52FABF2E-901B-4198-914F-EDBB9687272F - 469da34a04d26a12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KidsCard.CardCVCell.cardImage.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "KidsCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rawan/Desktop/KidsCard/KidsCard/Model/CardCVCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "52FABF2E-901B-4198-914F-EDBB9687272F - cb8449503a9d031e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KidsCard.CardCVCell.cardImage.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "KidsCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rawan/Desktop/KidsCard/KidsCard/Model/CardCVCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "52FABF2E-901B-4198-914F-EDBB9687272F - 73bfa87aaf1cbac3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KidsCard.CardCVCell.cardImage.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "KidsCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rawan/Desktop/KidsCard/KidsCard/Model/CardCVCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "52FABF2E-901B-4198-914F-EDBB9687272F - f9e3a19abf21dd66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KidsCard.CardCVCell.cardImage.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "KidsCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rawan/Desktop/KidsCard/KidsCard/Model/CardCVCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "52FABF2E-901B-4198-914F-EDBB9687272F - ef44db7997cf5f9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KidsCard.CardCVCell.init(frame: __C.CGRect) -&gt; KidsCard.CardCVCell"
+                  moduleName = "KidsCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rawan/Desktop/KidsCard/KidsCard/Model/CardCVCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "52FABF2E-901B-4198-914F-EDBB9687272F - fc3631833ae9ebfe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KidsCard.CardCVCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;KidsCard.CardCVCell&gt;"
+                  moduleName = "KidsCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rawan/Desktop/KidsCard/KidsCard/Model/CardCVCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
